@@ -1,0 +1,5 @@
+name = input("คุณชื่ออะไร: ")
+height = int(input("คุณน้ำหนักกี่กิโลกรัม: "))
+weight = int(input("คุณสูงกี่เมตร: "))
+BMI = int(weight/height/height*1000)
+print("BMI",name,"is", BMI)
